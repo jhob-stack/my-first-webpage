@@ -63,7 +63,7 @@ background-size: cover;
 }
 
 .ins{
-  font-weight: bold;
+  font-weight: bold; /* note that I removed the underline for it can be mistaken as a hyperlnked text*/
 }
 
 .list{
@@ -111,17 +111,4 @@ background-size: cover;
 
 .github-link a:active{
   color: greenyellow;
-}
-
-.github-link a:link{
-  color: darkblue;
-}
-
-.github-link a-visited{
-  text-decoration: line-through;
-}
-
-.github-link a:focus{
-  border: 1px dashed darkblue;
-  background-color: rgb(255, 215, 158)
 }
