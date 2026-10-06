@@ -1,0 +1,127 @@
+/* CSS */
+
+*,
+*::before,
+
+ .any-any{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 5px;
+ }
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXI1ZzAwMHZqdnJ3c2t1bmc2YWFjcXc5ZXNtaGx6MTBxYzJzejh1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3lJOZdPCFEY9TZeh1d/giphy.gif");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+#gif{
+  border: 2px dashed darkblue;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.heading{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkblue;
+}
+
+.border{
+  background-color: white;
+  border: 2px dashed darkblue;
+  border-radius: 14px;
+  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name{
+  color: darkblue;
+}
+
+.name, .main-info, .heading{
+  text-align: center;
+}
+
+.italic{
+  font-style: italic;
+  text-align: center;
+}
+
+.del{
+  text-decoration: line-through;
+}
+
+.ins{
+  font-weight: bold;
+}
+
+.list{
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.to-1bold{
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  color: darkblue;
+}
+
+.long-text{
+  text-align: center;
+}
+
+
+.to-bold{
+  border-top: 2px dashed darkblue;
+  border-bottom: 2px dashed darkblue;
+  color: darkblue;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.github-link{
+  border-top: 2px dashed black;
+  text-align: center;
+}
+
+.github-link a{
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.github-link a:hover {
+  color: rgb(122, 206, 255);
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.github-link a:active{
+  color: greenyellow;
+}
+
+.github-link a:link{
+  color: darkblue;
+}
+
+.github-link a-visited{
+  text-decoration: line-through;
+}
+
+.github-link a:focus{
+  border: 1px dashed darkblue;
+  background-color: rgb(255, 215, 158)
+}
