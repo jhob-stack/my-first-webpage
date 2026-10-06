@@ -1,52 +1,59 @@
-<!-- Machine Exercise 1-->
-<p> </p> <br> 
-<h2> <p  align="center" > <b>  My Personal Profile</b> </p> </h2> <!-- heading -->
+<!--for CSS styling-->
 
-<table border="1" cellpadding="20" cellspacing="0" align="center"> <!-- table -->
-        <th colspan="2" bgcolor = "skyblue" > <h1> <b> Jhobhert R. Esteban</b> </h1> </th> <!-- heading inside-->
- <tr> <!-- row 1-->
-    <td   background = "jhobjhob.png" height= 300 width=184 cellpadding = 2 valign= top></td> 
-         <td>  
-        
-            <b> Full Name: </b> Jhobhert Reyes Esteban
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+<h2 class="heading"> My Personal Profile </h2> 
+  </head>
+  
+  <body>
+
+<!-- Machine Exercise 1 modified code-->
+
+<div class=border> 
+<img id="gif" src="https://media.giphy.com/media/26AhEVKpx8YVxa8ZW7/giphy.gif" alt="jhob's illus">
+         <h1 class="name"> <b> Jhobhert R. Esteban</b> </h1>
+   
+    <div class="main-info">    
+            <span class="to-1bold"> Full Name: </span> Jhobhert Reyes Esteban
             <br> <br>
-            <b> Birthday: </b> November 28, 2006
+             <span class="to-1bold"> Birthday: </span> November 28, 2006
             <br> <br>
-            <b> Status: </b> Student
-        
-    </td> <!-- column 2 -->
+            <span class="to-1bold"> Status: </span> Student
+    </div>    
+<br><br>
+    
 
-    </tr> <tr> <!-- row 2-->
-
-    <td bgcolor = "lightyellow" ><p  align="center"  > <b>  Hobbies </b> </p>  </td>
-        <td> 
-            <ul> 
+    <p class="to-bold"> Hobbies </p> 
+    <div class= "list"> 
+            <ol> 
             <li> Graphic designing, Gaming, Pickleball </li> 
             <li> Binge-watch Kdrama </li>
-            <li> Gumawa ng requirements</li> 
-        </td>
-  
-    </tr> <tr> <!-- row 3-->
-     <td bgcolor = "lightyellow" ><p  align="center"  > <b>  Top 3 Movies </b> </p>  </td>
-    <td>
-         <ul> 
+            <li> Gumawa ng requirements</li> </ol>
+    </div>
+ 
+    <p class="to-bold">  Top 3 Movies </p>
+        <div class= "list"> 
+        <ul> 
         <li> Call Me By Your Name</li> 
         <li> Even If This Love Disappears From the World Tonight </li>
         <li> Twilight</li> 
-    </td>
+        </div>
 
-    <tr> </tr> <!-- row 4-->
-        <td bgcolor = "lightyellow" ><p  align="center"  > <b>  Favorite Quote </b> </p>  </td>
-        <td> <i> "Yung bigla mong tinigil limang talking stage mo para sa kanya tas bigla niya ring sinabi na mahal pa niya ex niya."
-        </i> </td> </tr>
+  
+  <p class="to-bold"> Favorite Quote </p>  
+<br>
+        <p class="italic">  "Yung bigla mong tinigil limang talking stage mo para sa kanya tas bigla niya ring sinabi na <span id= "pullquote"> mahal pa niya ex niya."  </span>
+        </p>
+<br>
+       <p class="to-bold">  Fun Fact </p> 
+       <p class="long-text"> <span class="ins"> lahat </span> ng size at colors ng index card binili ko nung first year <span class="del"> haha! </span>
+        </p> 
 
-    <tr> </tr> <!-- row 5-->
-        <td bgcolor = "lightyellow" ><p  align="center"  > <b>  Fun Fact </b> </p>  </td>
-        <td> <p> <ins> lahat </ins> ng size at colors ng index card binili ko nung first year <del> haha </del>
-        </p> </td>
-
- <tr> </tr> <!-- footer-->
-    <th colspan="2" bgcolor = "skyblue" ><a href=https://github.com/jhob-stack> My Github Profile</a> </th>
-
-</table> 
-
+   <p class="github-link" ><a href=https://github.com/jhob-stack> My Github Profile</a> </p>
+</div>
+</body>
+</html>
